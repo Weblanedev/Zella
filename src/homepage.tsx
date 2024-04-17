@@ -55,28 +55,29 @@ const Homepage = () => {
 
   </section>
   <section className="produce">
-    <div className="rowss">
+    <div className="">
       <div className="produce-col">
         <section className="product-banner" data-aos="fade-right">
           <h1>
-            NEW  <br /> ARRIVALS
+            NEW ARRIVALS
           </h1>
         </section>
+          <p className="text-center text-md">A curated list of our most recent products</p>
       </div>
       <div className="produce-col">
         <div className="produce-img-row">
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/4072683/pexels-photo-4072683.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Camera</h5>
-              <p>$450</p>
-              <p className="cart-btn" onClick={() => purchase("Camera", "450")}>
+              <h5>Power bank</h5>
+              <p>$50.00</p>
+              <p className="cart-btn" onClick={() => purchase("Power bank", "50")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -84,15 +85,15 @@ const Homepage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Lens</h5>
-              <p>$150.00</p>
-              <p className="cart-btn" onClick={() => purchase("Lens", "150")}>
+              <h5>Elecric fan</h5>
+              <p>$250.00</p>
+              <p className="cart-btn" onClick={() => purchase("Elecric Fan", "250")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -100,15 +101,15 @@ const Homepage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/4097206/pexels-photo-4097206.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Macbook pro</h5>
-              <p>$999.99</p>
-              <p className="cart-btn" onClick={() => purchase("Macbook pro", "999.99")}>
+              <h5>Phone charger</h5>
+              <p>$9.99</p>
+              <p className="cart-btn" onClick={() => purchase("Phone charger", "9.99")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -116,15 +117,15 @@ const Homepage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/1365795/pexels-photo-1365795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/8380417/pexels-photo-8380417.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>GamePad</h5>
-              <p>$130.00</p>
-              <p className="cart-btn" onClick={() => purchase("GamePad", "130")}>
+              <h5>Apple airpod</h5>
+              <p>$300.00</p>
+              <p className="cart-btn" onClick={() => purchase("Apple airpod", "300")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -132,94 +133,6 @@ const Homepage = () => {
         </div>
       </div>
     </div>
-  </section>
-  <section className="ctas">
-    <h1 data-aos="fade-up">Our Approach</h1>
-    <p data-aos="fade-left">
-    We believe in the power of collaboration and teamwork, working closely with our sellers, partners, and employees to achieve shared goals and objectives.
-    </p>
-    <a
-      href="/products"
-      className="hero-btn3"
-      data-aos="fade-down"
-    >
-      Shop Now
-    </a>
-  </section>
-  <section className="producea">
-    <div className="rowssa">
-      <div className="produce-cola">
-        <div className="produce-img-rowa">
-          <div className="produce-img-cola" data-aos="fade-right">
-            <div className="abouta">
-              <img src="https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
-            </div>
-            <div className="abouta">
-              <h5>Sweater</h5>
-              <p>$34.45</p>
-              <p className="cart-btn" onClick={() => purchase("Sweater", "34.45")}>
-                <p>Purchase</p>
-              </p>
-            </div>
-          </div>
-          <div className="produce-img-cola" data-aos="fade-right">
-            <div className="abouta">
-              <img src="https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s" alt="" className="small-imgs" />
-            </div>
-            <div className="abouta">
-              <h5>Jeans</h5>
-              <p>$40.34</p>
-              <p className="cart-btn" onClick={() => purchase("Jeans", "40.34")}>
-                <p>Purchase</p>
-              </p>
-            </div>
-          </div>
-          <div className="produce-img-cola" data-aos="fade-right">
-            <div className="abouta">
-              <img src="https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
-            </div>
-            <div className="abouta">
-              <h5>Work Shoes</h5>
-              <p>$95.34</p>
-              <p className="cart-btn" onClick={() => purchase("Work Shoes", "95.34")}>
-                <p>Purchase</p>
-              </p>
-            </div>
-          </div>
-          <div className="produce-img-cola" data-aos="fade-right">
-            <div className="abouta">
-              <img src="https://images.pexels.com/photos/53422/ironing-iron-press-clothing-53422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
-            </div>
-            <div className="abouta">
-              <h5>Philips Iron</h5>
-              <p>$127.89</p>
-              <p className="cart-btn" onClick={() => purchase("Philips Iron", "127.89")}>
-                <p>Purchase</p>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="produce-cola">
-        <section className="product-bannera" data-aos="fade-left">
-          <h1>
-            BEST <br /> SELLING
-          </h1>
-        </section>
-      </div>
-    </div>
-  </section>
-  <section className="cta">
-    <h4 data-aos="fade-down">
-      Here to cater for all your product needs
-    </h4>
-    <Link
-      to="contact-us"
-      className="hero-btn4"
-      data-aos="fade-right"
-    >
-      CONTACT US
-    </Link>
   </section>
 </>
 

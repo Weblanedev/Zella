@@ -14,7 +14,7 @@ const ProductsPage = () => {
   const navigate = useNavigate();
 
 
-  const purchase = (name: any, price: any) => {
+  const purchase = (name: string, price: string | number) => {
     const product = {
         name,
         price,
@@ -45,18 +45,18 @@ const ProductsPage = () => {
             </div>
           ))} */}
 
-          <div className="produce-img-col" data-aos="fade-left">
+<div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/4097206/pexels-photo-4097206.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Camera</h5>
-              <p>$450</p>
-              <p className="cart-btn" onClick={() => purchase("Camera", "450")}>
+              <h5>Phone charger</h5>
+              <p>$9.99</p>
+              <p className="cart-btn" onClick={() => purchase("Phone charger", "9.99")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -64,15 +64,15 @@ const ProductsPage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/8380417/pexels-photo-8380417.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Lens</h5>
-              <p>$150.00</p>
-              <p className="cart-btn" onClick={() => purchase("Lens", "150")}>
+              <h5>Apple airpod</h5>
+              <p>$300.00</p>
+              <p className="cart-btn" onClick={() => purchase("Apple airpod", "300")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -80,15 +80,15 @@ const ProductsPage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/3675622/pexels-photo-3675622.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>Macbook pro</h5>
-              <p>$999.99</p>
-              <p className="cart-btn" onClick={() => purchase("Macbook pro", "999.99")}>
+              <h5>Elecric fan</h5>
+              <p>$250.00</p>
+              <p className="cart-btn" onClick={() => purchase("Elecric Fan", "250")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -96,15 +96,15 @@ const ProductsPage = () => {
           <div className="produce-img-col" data-aos="fade-left">
             <div className="about">
               <img
-                src="https://images.pexels.com/photos/1365795/pexels-photo-1365795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/4072683/pexels-photo-4072683.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt=""
                 className="small-imgs"
               />
             </div>
             <div className="about">
-              <h5>GamePad</h5>
-              <p>$130.00</p>
-              <p className="cart-btn" onClick={() => purchase("GamePad", "130")}>
+              <h5>Power bank</h5>
+              <p>$50.00</p>
+              <p className="cart-btn" onClick={() => purchase("Power bank", "50")}>
                 <p>Purchase</p>
               </p>
             </div>

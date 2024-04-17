@@ -634,6 +634,7 @@ nav .fa {
 .produce {
   width: 75%;
   margin: auto;
+  margin-bottom: 50px;
 }
 .rowss {
   margin-top: 5%;
@@ -650,7 +651,7 @@ nav .fa {
   background-image: url(../Homepage/images/food.jpg);
   background-size: cover;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
