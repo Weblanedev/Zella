@@ -28,7 +28,7 @@ const ProductsPage = () => {
     <div className="text-box">
       <h1>Premium and affordable products</h1>
       <p>
-      Our farm strictly combines the traditions of organic farming with the latest innovations to make our products healthy and safe for the clients.
+        Our products are carefully selected to meet the needs of our customers. We offer a wide range of products from electronics to clothing and accessories. 
       </p>
     </div>
   </section>
