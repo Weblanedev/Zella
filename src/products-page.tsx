@@ -72,7 +72,7 @@ const ProductsPage = () => {
             <div className="about">
               <h5>Apple airpod</h5>
               <p>$300.00</p>
-              <p className="cart-btn" onClick={() => purchase("Apple airpod", "300")}>
+              <p className="cart-btn" onClick={() => purchase("Apple airpod", "300.00")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -88,7 +88,7 @@ const ProductsPage = () => {
             <div className="about">
               <h5>Elecric fan</h5>
               <p>$250.00</p>
-              <p className="cart-btn" onClick={() => purchase("Elecric Fan", "250")}>
+              <p className="cart-btn" onClick={() => purchase("Elecric Fan", "250.00")}>
                 <p>Purchase</p>
               </p>
             </div>
@@ -104,55 +104,55 @@ const ProductsPage = () => {
             <div className="about">
               <h5>Power bank</h5>
               <p>$50.00</p>
-              <p className="cart-btn" onClick={() => purchase("Power bank", "50")}>
+              <p className="cart-btn" onClick={() => purchase("Power bank", "50.00")}>
                 <p>Purchase</p>
               </p>
             </div>
           </div>
           <div className="produce-img-cola" data-aos="fade-right">
             <div className="abouta">
-              <img src="https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
+              <img src="https://images.pexels.com/photos/4219861/pexels-photo-4219861.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="small-imgs" />
             </div>
             <div className="abouta">
-              <h5>Sweater</h5>
-              <p>$34.45</p>
-              <p className="cart-btn" onClick={() => purchase("Sweater", "34.45")}>
+              <h5>HDMI adapter</h5>
+              <p>$14.45</p>
+              <p className="cart-btn" onClick={() => purchase("HDMI adapter", "14.45")}>
                 <p>Purchase</p>
               </p>
             </div>
           </div>
           <div className="produce-img-cola" data-aos="fade-right">
             <div className="abouta">
-              <img src="https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s" alt="" className="small-imgs" />
+              <img src="https://images.pexels.com/photos/1738642/pexels-photo-1738642.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="small-imgs" />
             </div>
             <div className="abouta">
-              <h5>Jeans</h5>
-              <p>$40.34</p>
-              <p className="cart-btn" onClick={() => purchase("Jeans", "40.34")}>
+              <h5>SD Card</h5>
+              <p>$5.40</p>
+              <p className="cart-btn" onClick={() => purchase("Jeans", "5.40")}>
                 <a href="../coming soon/comingsoon.html">Purchase</a>
               </p>
             </div>
           </div>
           <div className="produce-img-cola" data-aos="fade-right">
             <div className="abouta">
-              <img src="https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
+              <img src="https://images.pexels.com/photos/7360460/pexels-photo-7360460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="small-imgs" />
             </div>
             <div className="abouta">
-              <h5>Work Shoes</h5>
-              <p>$95.34</p>
-              <p className="cart-btn" onClick={() => purchase("Work Shoes", "95.34")}>
+              <h5>Phone case</h5>
+              <p>$15.00</p>
+              <p className="cart-btn" onClick={() => purchase("Work Shoes", "15.00")}>
                 <a href="../coming soon/comingsoon.html">Purchase</a>
               </p>
             </div>
           </div>
           <div className="produce-img-cola" data-aos="fade-right">
             <div className="abouta">
-              <img src="https://images.pexels.com/photos/53422/ironing-iron-press-clothing-53422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className="small-imgs" />
+              <img src="https://images.pexels.com/photos/4218980/pexels-photo-4218980.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="small-imgs" />
             </div>
             <div className="abouta">
-              <h5>Philips Iron</h5>
-              <p>$127.89</p>
-              <p className="cart-btn" onClick={() => purchase("Philips Iron", "127.89")}>
+              <h5>Black book</h5>
+              <p>$27.00</p>
+              <p className="cart-btn" onClick={() => purchase("Black book", "27.00")}>
                 <a href="../coming soon/comingsoon.html">Purchase</a>
               </p>
             </div>
