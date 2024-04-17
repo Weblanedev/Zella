@@ -24,9 +24,9 @@ const Homepage = () => {
     <>
   <section className="header">
     <div className="text-box">
-      <h1>Premium and affordable products</h1>
+      <h1>Welcome to Zella Technologies Limited</h1>
       <p>
-      Committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers
+      Where Every Gift Tells a Story and Every Connection Matters
       </p>
       <Link to="about-us" className="hero-btn">
         Visit Us to Know More
@@ -38,7 +38,7 @@ const Homepage = () => {
       <div className="aboutt-col" data-aos="fade-left">
         <h1>Discover our story</h1>
         <p>
-        Zella Technologies Limited is a pioneering e-commerce platform dedicated to providing seamless online shopping experiences for customers worldwide. We are committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers, offering a diverse range of products and services to meet the evolving needs of our global community.
+        At Zella Technologies Limited, our journey is more than just a timeline – it's a tale of passion, innovation, and a relentless commitment to redefining the art of gifting and e-commerce. Step into our world and uncover the story behind our vision, values, and the people who make it all possible.
         </p>
         <a className="hero-btn10" href="../About/about.html">
           Read More
@@ -53,19 +53,6 @@ const Homepage = () => {
       </div>
     </div>
     <Link className="hero-btn12" to="/about-us">
-      Read More
-    </Link>
-  </section>
-  <section className="ctar">
-    <h1 data-aos="fade-up">A Virtual Tour</h1>
-    <p data-aos="fade-left">
-    We actively engage with and support the communities we serve, giving back through charitable initiatives and social responsibility programs.
-    </p>
-    <Link
-      to="/about-us"
-      className="hero-btn2"
-      data-aos="fade-down"
-    >
       Read More
     </Link>
   </section>

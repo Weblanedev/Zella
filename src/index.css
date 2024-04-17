@@ -252,7 +252,7 @@ nav img {
 .hero-btn {
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   border: 1px solid transparent;
   text-transform: uppercase;
   font-family: "poppins";
@@ -261,7 +261,7 @@ nav img {
   padding: 15px 34px;
   font-size: 13px;
   font-weight: 600;
-  background: green;
+  background: #FFE5AF;
   position: relative;
   cursor: pointer;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
