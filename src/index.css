@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,p {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 * {
-  color: rgb(67 20 7);
+  color: #0C1428;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -55,7 +55,7 @@ html {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(https://images.pexels.com/photos/4050388/pexels-photo-4050388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    url(https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&cs=tinysrgb&w=600);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -521,8 +521,8 @@ nav .fa {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .hero-btn10:hover {
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #1344C2;
+  background: #1344C2;
   transition: 1s;
 }
 .hero-btn12 {
@@ -545,8 +545,8 @@ nav .fa {
   margin-bottom: 5%;
 }
 .hero-btn12:hover {
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #1344C2;
+  background: #1344C2;
   transition: 1s;
 }
 @media (max-width: 900px) {
@@ -627,8 +627,8 @@ nav .fa {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .hero-btn2:hover {
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #1344C2;
+  background: #1344C2;
   transition: 1s;
 }
 .produce {
@@ -658,7 +658,7 @@ nav .fa {
   position: relative;
 }
 .product-banner h1 {
-  color: chocolate;
+  color: #5B6E9E;
   margin-top: 0%;
   font-size: 40px;
   text-transform: uppercase;
@@ -697,7 +697,7 @@ nav .fa {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
-  color: chocolate;
+  color: #5B6E9E;
   padding: 0px;
 }
 .produce-img-col .about p {
@@ -796,8 +796,8 @@ nav .fa {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .hero-btn3:hover {
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #1344C2;
+  background: #1344C2;
   transition: 1s;
 }
 @media (max-width: 700px) {
@@ -840,7 +840,7 @@ nav .fa {
   position: relative;
 }
 .product-bannera h1 {
-  color: chocolate;
+  color: #5B6E9E;
   margin-top: 0%;
   font-size: 40px;
   text-transform: uppercase;
@@ -865,7 +865,7 @@ nav .fa {
   font-size: 20px;
   text-align: center;
   font-weight: 600;
-  color: chocolate;
+  color: #5B6E9E;
   padding: 0px;
 }
 .produce-img-cola .abouta p {
@@ -1165,7 +1165,7 @@ nav .fa {
   padding: 12px 28px;
   font-size: 13px;
   font-weight: 700;
-  background: green;
+  background: #1344C2;
   position: relative;
   cursor: pointer;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
@@ -1370,8 +1370,8 @@ footer {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .hero-btn1:hover {
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #1344C2;
+  background: #1344C2;
   transition: 1s;
 }
 @media (max-width: 1324px) {
@@ -1516,12 +1516,12 @@ footer {
   flex-direction: row-reverse;
 }
 .icon-left h1 {
-  color: green;
+  color: #1344C2;
   font-family: "PT Serif", serif;
   font-size: 70px;
 }
 .icon-right h1 {
-  color: green;
+  color: #1344C2;
   font-family: "PT Serif", serif;
   font-size: 70px;
 }
@@ -1976,7 +1976,7 @@ footer {
   font-weight: 600;
   font-family: "PT Serif", serif;
   font-size: 17px;
-  color: green;
+  color: #1344C2;
   padding-bottom: 5px;
 }
 .col-4 p {

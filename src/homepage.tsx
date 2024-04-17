@@ -46,22 +46,20 @@ const Homepage = () => {
       </div>
       <div className="aboutt-col" data-aos="fade-right">
         <img
-          src="https://images.pexels.com/photos/7007191/pexels-photo-7007191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3664iOgqjr765tWFQFo3f8-DK3mX2x4HPN3Waqng36KA2NtpqQRgVqE4KLY3aDEUYEs&usqp=CAU"
           alt="image about the company"
           id="ProductImg"
         />
       </div>
     </div>
-    <Link className="hero-btn12" to="/about-us">
-      Read More
-    </Link>
+
   </section>
   <section className="produce">
     <div className="rowss">
       <div className="produce-col">
         <section className="product-banner" data-aos="fade-right">
           <h1>
-            NEW  <br /> IN STOCK
+            NEW  <br /> ARRIVALS
           </h1>
         </section>
       </div>
