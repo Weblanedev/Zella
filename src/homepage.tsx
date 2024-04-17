@@ -38,7 +38,7 @@ const Homepage = () => {
       <div className="aboutt-col" data-aos="fade-left">
         <h1>Discover our story</h1>
         <p>
-        Kagon Technologies Limited is a pioneering e-commerce platform dedicated to providing seamless online shopping experiences for customers worldwide. We are committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers, offering a diverse range of products and services to meet the evolving needs of our global community.
+        Zella Technologies Limited is a pioneering e-commerce platform dedicated to providing seamless online shopping experiences for customers worldwide. We are committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers, offering a diverse range of products and services to meet the evolving needs of our global community.
         </p>
         <a className="hero-btn10" href="../About/about.html">
           Read More

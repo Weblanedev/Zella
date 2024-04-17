@@ -13,7 +13,7 @@ const Navbar = () => {
         to="/"
         className="text-[20px] md:text-[30px] md:font-bold font-medium text-[#333333]"
       >
-        KAGON
+        Zella
       </Link>
 
       <div className="md:flex items-center justify-center gap-14 hidden">

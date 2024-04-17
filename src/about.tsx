@@ -18,7 +18,7 @@ export default function AboutUs() {
             <div className='2xl:w-[1440px] mx-auto'>
                 <div className="pt-[80px]">
                     <p className='text-center text-[30px] lg:w-[50%] mb-[20px] m-auto font-[500] recoletafont text-blue-1000'>Who We Are</p>
-                    <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px]  pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>Kagon Technologies Limited is a pioneering e-commerce platform dedicated to providing seamless online shopping experiences for customers worldwide. We are committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers, offering a diverse range of products and services to meet the evolving needs of our global community.</p>
+                    <p className='w-[90%] lg:w-[65%] text-[18px] leading-[28px] lg:text-[20px] lg:leading-[36px]  pb-[24px] m-auto text-justify  text-gray-1000 manropefont'>Zella Technologies Limited is a pioneering e-commerce platform dedicated to providing seamless online shopping experiences for customers worldwide. We are committed to leveraging cutting-edge technology and innovative solutions to connect buyers and sellers, offering a diverse range of products and services to meet the evolving needs of our global community.</p>
                 </div>
                 <div className='flex justify-center'>
                     <div className='pt-[24px] gap-[40px] w-[90%] h-[300px] sm:w-[720px] sm:h-[450px] lg:w-[900px] lg:h-[600px] relative'>
@@ -35,11 +35,11 @@ export default function AboutUs() {
                         </div>
                         {
                             state === "Mission" && <p className='manropefont text-justify text-[16px] leading-[24px] sm:text-[18px] sm:leading-[36px] font-[400] text-gray-1000 w-full'>
-At Kagon Technologies Limited, our mission is to provide unparalleled convenience, selection, and value to our customers while empowering sellers to reach their full potential in the digital marketplace. We are dedicated to fostering trust, transparency, and integrity in all our interactions, ensuring a safe and secure environment for transactions. Through continuous innovation, strategic partnerships, and a relentless commitment to excellence, we strive to redefine the future of e-commerce and drive positive change in the global economy.
+At Zella Technologies Limited, our mission is to provide unparalleled convenience, selection, and value to our customers while empowering sellers to reach their full potential in the digital marketplace. We are dedicated to fostering trust, transparency, and integrity in all our interactions, ensuring a safe and secure environment for transactions. Through continuous innovation, strategic partnerships, and a relentless commitment to excellence, we strive to redefine the future of e-commerce and drive positive change in the global economy.
                             </p>
                         }
                         {state === "Vision" && <p className='manropefont text-justify text-[16px] leading-[24px] sm:text-[18px] sm:leading-[36px] font-[400] text-gray-1000 w-full'>
-                        Our vision at Kagon Technologies Limited is to revolutionize the e-commerce industry by creating a dynamic and inclusive marketplace that transcends geographical boundaries. We aspire to empower individuals and businesses alike, fostering economic growth and opportunity through the power of online commerce. By harnessing the latest advancements in technology and prioritizing customer satisfaction, we aim to become the preferred destination for online shopping worldwide.
+                        Our vision at Zella Technologies Limited is to revolutionize the e-commerce industry by creating a dynamic and inclusive marketplace that transcends geographical boundaries. We aspire to empower individuals and businesses alike, fostering economic growth and opportunity through the power of online commerce. By harnessing the latest advancements in technology and prioritizing customer satisfaction, we aim to become the preferred destination for online shopping worldwide.
                         </p>}
                         {/* <div className='mt-[30px] lg:w-[50%]'>
                         <div className="w-[100%] h-[248px] sm:w-[500px] sm:h-[400px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[400px] relative">
