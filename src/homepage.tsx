@@ -40,9 +40,6 @@ const Homepage = () => {
         <p>
         At Zella Technologies Limited, our journey is more than just a timeline – it's a tale of passion, innovation, and a relentless commitment to redefining the art of gifting and e-commerce. Step into our world and uncover the story behind our vision, values, and the people who make it all possible.
         </p>
-        <a className="hero-btn10" href="../About/about.html">
-          Read More
-        </a>
       </div>
       <div className="aboutt-col" data-aos="fade-right">
         <img

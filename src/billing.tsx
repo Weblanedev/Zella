@@ -96,7 +96,7 @@ const Billing = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-green-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with Splashtop</p>
+          <p>Find the best way to get help and connect with us</p>
         </div>
       </section>
 
@@ -178,7 +178,7 @@ const Billing = () => {
                 Professional consultation service charge
               </h4>
               <h4 className="text-[#161616] font-medium text-[16px]">
-                $100.00
+                $8.00
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -356,7 +356,7 @@ const Billing = () => {
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                to="/privacy-policy"
+                to="/"
                 className="text-[#a20401] cursor-pointer"
               >
                 privacy policy.
