@@ -152,7 +152,7 @@ const ProductsPage = () => {
             <div className="abouta">
               <h5>Black book</h5>
               <p>$27.00</p>
-              <p className="cart-btn" onClick={() => purchase("Black book", "27.00")}>
+              <p className="cart-btn" onClick={() => purchase("Black book", "npm 27.00")}>
                 <a href="../coming soon/comingsoon.html">Purchase</a>
               </p>
             </div>

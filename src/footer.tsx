@@ -30,7 +30,7 @@ const Footer = () => {
           Contact
         </Link>
         <Link
-          to="/privacy-policy"
+          to="/"
           className="text-[14px] leading-[24px] font-medium text-white cursor-pointer"
         >
           Terms & Privacy
