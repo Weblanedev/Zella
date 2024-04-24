@@ -187,7 +187,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-green-500 leading-normal">
-                Lagos, Nigeira
+                14 Tom Ogboi Avenue, Itedo Estate, Lekki
               </p>
             </div>
           </div>
